@@ -179,6 +179,12 @@ footer {
 }
 
 
+/* ---------- ABOUT ---------- */
+.about p {
+  text-align: center;
+  padding: 80px 20px;
+}
+
 .product-card {
   background: rgba(255, 255, 255, 0.9);
   border: 1px solid var(--border-color);
@@ -216,6 +222,20 @@ footer {
 
 .add-to-cart:hover {
   opacity: 0.9;
+}
+
+.about img {
+  margin-top: 20px;
+  max-width: 800px;
+  width: 100%;
+  border-radius: 10px;
+}
+
+img {
+  width: 400px !important;
+  height: auto !important;
+  display: block;
+  margin: 0 auto;
 }
 
 /* ---------- CART PAGE ---------- */
