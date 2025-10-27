@@ -225,18 +225,14 @@ footer {
 }
 
 .about img {
-  margin-top: 20px;
+  display: block;
+  margin: 20px auto; /* centers horizontally */
   max-width: 800px;
   width: 100%;
-  border-radius: 10px;
+  border-radius: 20px; /* 1000px makes it too round */
 }
 
-img {
-  width: 400px !important;
-  height: auto !important;
-  display: block;
-  margin: 0 auto;
-}
+
 
 /* ---------- CART PAGE ---------- */
 .cart {
